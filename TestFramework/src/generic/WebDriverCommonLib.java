@@ -23,7 +23,7 @@ public class WebDriverCommonLib extends BaseTest{
 		System.out.println("the title of the "+pageName+" page is "+titleOfTheWebPage+"");
 		return titleOfTheWebPage;
 	}
-	System.out.println("------------------------------------------------------------------------------------------------------------------------")
+	
 	public void verifyTheTitle(String expectedTitle,String pageName)
 	{
 		String actualtitleOfThWebPage = driver.getTitle();
